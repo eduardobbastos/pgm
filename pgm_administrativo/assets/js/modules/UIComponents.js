@@ -77,7 +77,16 @@ export class UIComponents {
         body.className = 'accordion-body';
 
         const contentStr = item['Conteúdo'] || '';
-        const contentHtml = contentStr.replace(/\n/g, '<br/>');
+        let contentHtml = contentStr.replace(/\n/g, '<br/>');
+
+        // Destacar links de acesso ao conteúdo como botões
+        const accessLinkRegex = /\[(.*?)\]\((.*?)\)/g;
+        contentHtml = contentHtml.replace(accessLinkRegex, (match, text, url) => {
+            return `<a href="${url}" target="_blank" class="access-btn">
+                        <i data-lucide="external-link" style="width:16px; height:16px;"></i>
+                        ${text}
+                    </a>`;
+        });
 
         body.innerHTML = `
             <div class="accordion-content-inner">
