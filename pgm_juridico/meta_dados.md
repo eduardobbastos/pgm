@@ -18,6 +18,8 @@ o Organização de fundamentos jurídicos
 o Resumo de decisões judiciais
 o Comparação de respostas entre diferentes IAs
 
+[Acesso ao conteúdo da Aula]()
+
 # Aula 2: Agentes, Confiabilidade e Alucinações em IA Jurídica
 • Diferença entre chatbot e agente jurídico especializado
 • Conceito de agente aplicado à rotina jurídica
@@ -31,6 +33,8 @@ o Comparação de respostas entre diferentes IAs
 • Padronização de documentos e modelos
 • Utilização de IA para atividades jurídicas
 
+[Acesso ao conteúdo da Aula]()
+
 # Aula 3: NotebookLM Aplicada à Jurídica
 • Uso de IA (NotebookLM) para organização do conhecimento jurídico:
 o Upload de PDFs (contratos, sentenças, acórdãos)
@@ -42,6 +46,8 @@ o Identificação de riscos contratuais
 • Infográfico para VisualLaw
 • Podcast de explicação
 
+[Acesso ao conteúdo da Aula]()
+
 # Aula 4: Projeto – IA Aplicada a Casos Jurídicos Reais
 • Escolha do contexto de aplicação
 • Planejamento do projeto jurídico
@@ -50,3 +56,5 @@ o Identificação de riscos contratuais
 • Escolha das ferramentas adequadas
 • Desenvolvimento prático da solução
 • Demonstração do fluxo de trabalho com IA
+
+[Acesso ao conteúdo da Aula]()
