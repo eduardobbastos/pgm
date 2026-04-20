@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de IA | PGM-RJ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --primary-color: #00C0F4;
+            /* PGM Light Blue */
+            --secondary-color: #00508a;
+            /* PGM Dark Blue */
+            --accent-color: #00C0F4;
+            --bg-color: #f4f7fa;
+            --text-color: #2c3e50;
+            --card-bg: #ffffff;
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        .main-header {
+            background: var(--secondary-color);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-bottom: 5px solid var(--primary-color);
+        }
+
+        .header-content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            max-width: 280px;
+            margin-bottom: 2rem;
+            filter: brightness(0) invert(1);
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            font-weight: 300;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            flex: 1;
+            max-width: 1000px;
+            margin: -3rem auto 4rem;
+            padding: 0 1.5rem;
+            width: 100%;
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2.5rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 20px;
+            padding: 2.5rem;
+            text-align: center;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid rgba(0, 0, 0, 0.03);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: var(--primary-color);
+            opacity: 0;
+            transition: var(--transition);
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 80, 138, 0.15);
+            border-color: rgba(0, 80, 138, 0.1);
+        }
+
+        .card:hover::before {
+            opacity: 1;
+        }
+
+        .icon-container {
+            width: 80px;
+            height: 80px;
+            background: rgba(0, 192, 244, 0.05);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            color: var(--secondary-color);
+            transition: var(--transition);
+        }
+
+        .card:hover .icon-container {
+            background: var(--secondary-color);
+            color: white;
+            transform: scale(1.1);
+        }
+
+        .card-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.5rem;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .card-description {
+            font-size: 0.95rem;
+            color: #666;
+            margin-bottom: 2rem;
+            flex: 1;
+        }
+
+        .btn {
+            background: var(--secondary-color);
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .card:hover .btn {
+            background: var(--primary-color);
+            color: var(--secondary-color);
+            transform: scale(1.05);
+        }
+
+        .main-footer {
+            background: var(--secondary-color);
+            padding: 3rem 1.5rem;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .footer-content p {
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .container {
+                margin-top: -2rem;
+            }
+
+            .card {
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <img src="https://procuradoria.prefeitura.rio/wp-content/uploads/sites/14/2025/01/RIOPREFEITURA-Procuradoria-horizontal-monocromatica-branco.png"
+                alt="PGM-RJ Logo" class="logo">
+            <h1>Formação Continuada</h1>
+            <p class="subtitle">Programa de Valorização do Servidor | PGM-RJ</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="card-grid">
+            <a href="pgm_juridico/index.html" class="card">
+                <div class="icon-container">
+                    <i data-lucide="scale"></i>
+                </div>
+                <h2 class="card-title">IA Aplicada à Atividade Jurídica</h2>
+                <p class="card-description">Otimização de processos, análise de documentos e apoio estratégico para a
+                    área jurídica da PGM.</p>
+                <div class="btn">
+                    Acessar Curso <i data-lucide="arrow-right"></i>
+                </div>
+            </a>
+
+            <a href="pgm_administrativo/index.html" class="card">
+                <div class="icon-container">
+                    <i data-lucide="briefcase"></i>
+                </div>
+                <h2 class="card-title">IA Estratégica para Gestão Administrativa</h2>
+                <p class="card-description">Automação de rotinas, análise de dados organizacionais e suporte à tomada de
+                    decisão administrativa.</p>
+                <div class="btn">
+                    Acessar Curso <i data-lucide="arrow-right"></i>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p><strong>Procuradoria Geral do Município do Rio de Janeiro</strong></p>
+            <p>&copy; 2026 Inteligência Artificial Aplicada | PGM-RJ</p>
+        </div>
+    </footer>
+
+    <script>
+        // Inicializa ícones Lucide
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>

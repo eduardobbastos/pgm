@@ -1,0 +1,22 @@
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and Local files
+.env
+*.local
+node_modules/
+dist/
+build/
+
+# Project specifics
+*.csv
+debug.py
+debug_test.js
+test.js
