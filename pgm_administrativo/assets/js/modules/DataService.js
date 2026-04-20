@@ -15,7 +15,10 @@ export class DataService {
     async _fetchMarkdown(fileName) {
         const url = `./${fileName}.md`;
         const response = await fetch(url);
-        if (!response.ok) throw new Error(`Erro ao buscar arquivo markdown: ${fileName}.md`);
+        if (!response.ok) {
+            const errorMsg = `Erro ao buscar arquivo markdown: ${url} (Status: ${response.status} ${response.statusText})`;
+            throw new Error(errorMsg);
+        }
 
         const text = await response.text();
         return this._parseMarkdown(text);
