@@ -498,33 +498,28 @@ h3 {
 .accordion-content-inner {
     padding: 1.5rem;
 }
-/* Access Button */
+/* Access Button - Discreet Style */
 .access-btn {
     display: inline-flex;
     align-items: center;
-    gap: 12px;
-    margin-top: 1.5rem;
-    padding: 14px 28px;
-    background: linear-gradient(135deg, var(--pgm-light-blue), var(--pgm-dark-blue));
-    color: white !important;
+    gap: 8px;
+    margin-top: 1rem;
+    padding: 8px 0;
+    color: var(--pgm-dark-blue) !important;
     text-decoration: none !important;
-    border-radius: 12px;
     font-weight: 600;
-    font-size: 15px;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 192, 244, 0.3);
-    border: none;
-    cursor: pointer;
+    font-size: 14px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s ease;
 }
 
 .access-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0, 192, 244, 0.4);
-    background: linear-gradient(135deg, var(--pgm-dark-blue), var(--pgm-light-blue));
-    filter: brightness(1.1);
+    color: var(--pgm-light-blue) !important;
+    border-bottom-color: var(--pgm-light-blue);
+    gap: 12px;
 }
 
 .access-btn i {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
 }
