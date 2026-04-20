@@ -82,7 +82,7 @@ export class UIComponents {
         body.innerHTML = `
             <div class="accordion-content-inner">
                 <div style="margin-bottom: 1.5rem;">
-                    <span style="display:block; font-size:12px; color:#555; text-transform:uppercase; font-weight:bold; margin-bottom:5px;">Instrutor(es)</span>
+                    <span style="display:block; font-size:12px; color:#555; text-transform:uppercase; font-weight:bold; margin-bottom:5px;">Instrutores</span>
                     <strong style="color:var(--secondary-color);">${item['Professores']}</strong>
                 </div>
                 <div>
