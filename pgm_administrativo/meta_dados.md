@@ -26,6 +26,9 @@ o Upload de documentos
 o Criação de resumos
 o Geração de perguntas
 o Extração de insights
+• Criação de apresentações e vídeos
+• Aplicações para área administrativa
+• Comparação do Notebook LM com outras ferramentas
 
 [Acesso ao conteúdo da Aula]()
 
