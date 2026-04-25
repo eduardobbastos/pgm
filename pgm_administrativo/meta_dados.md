@@ -18,7 +18,7 @@ Exploração prática de IA generativa aplicada à:
 • Criação de pareceres técnicos
 • Planejamento administrativo assistido por IA
 
-[Acesso ao conteúdo da Aula]()
+[Acesso ao conteúdo da Aula](https://docs.google.com/presentation/d/e/2PACX-1vS5uzcjSICboj7uofHdh6uPPEhJwlx-Sh97gTiFvvQIicP_JgcOHWnlGFrP6X6Cna_68jaeaPTXwneO/pub?start=false&loop=false)
 
 # Aula 2: Organização do Conhecimento e NotebookLM
 • Práticas no NotebookLM
@@ -30,7 +30,7 @@ o Extração de insights
 • Aplicações para área administrativa
 • Comparação do Notebook LM com outras ferramentas
 
-[Acesso ao conteúdo da Aula]()
+[Acesso ao conteúdo da Aula](https://docs.google.com/presentation/d/e/2PACX-1vQXJQtHrFncYIt5H577nSiKZVYw9ZPpeO7H-8Jb8aAGsSlx8-52eVkSMgk9vbimmU3kRHADoiKAgJxH/pub?start=false&loop=false&delayms=3000)
 
 # Aula 3: IA Criativa e Produtividade Avançada
 Aplicação estratégica de ferramentas de IA para produtividade administrativa:
