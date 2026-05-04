@@ -18,7 +18,7 @@ Exploração prática de IA generativa aplicada à:
 • Criação de pareceres técnicos
 • Planejamento administrativo assistido por IA
 
-[Acesso ao conteúdo da Aula](https://docs.google.com/presentation/d/e/2PACX-1vS5uzcjSICboj7uofHdh6uPPEhJwlx-Sh97gTiFvvQIicP_JgcOHWnlGFrP6X6Cna_68jaeaPTXwneO/pub?start=false&loop=false)
+[Acesso ao conteúdo da Aula](https://docs.google.com/presentation/d/e/2PACX-1vSO7uYyxGiYA0PNwY6yfiV02wrEXCJ7cOHpDDRguzSL8eY4Ebg0xC-pKUCnKYFVjqBt8WyZNxIRLeC8/pub?start=false&loop=false)
 
 # Aula 2: Organização do Conhecimento e NotebookLM
 • Práticas no NotebookLM
