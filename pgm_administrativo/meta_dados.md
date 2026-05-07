@@ -30,7 +30,7 @@ o Extração de insights
 • Aplicações para área administrativa
 • Comparação do Notebook LM com outras ferramentas
 
-[Acesso ao conteúdo da Aula](https://docs.google.com/presentation/d/e/2PACX-1vQXJQtHrFncYIt5H577nSiKZVYw9ZPpeO7H-8Jb8aAGsSlx8-52eVkSMgk9vbimmU3kRHADoiKAgJxH/pub?start=false&loop=false&delayms=3000)
+[Acesso ao conteúdo da Aula](https://docs.google.com/presentation/d/e/2PACX-1vQHotdoGf-uQ1zMp9tpyWywj9DAKld9b3NbJ1mcpZdVYSbK-lttyiOHCesfJfJNdXuX-ZqUa2D5FsQB/pub?start=false)
 
 # Aula 3: IA Criativa e Produtividade Avançada
 Aplicação estratégica de ferramentas de IA para produtividade administrativa:
