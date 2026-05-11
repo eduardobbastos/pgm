@@ -46,7 +46,7 @@ Aplicação prática envolvendo:
 • Apresentação com dados extraídos de documentos
 • Resumo técnico de documentos e processos administrativos
 
-[Acesso ao conteúdo da Aula]()
+[Acesso ao conteúdo da Aula](https://docs.google.com/presentation/d/e/2PACX-1vShmt3VfLwUrFuLv0HWjL0pYvN6M9NptWm9vceKuC5MIe8ZFQ0WsEWNX8tsgbfMmON23gD7b1D3-77t/pub?start=false)
 
 # Aula 4: Agentes Inteligentes e Organização do Conhecimento
 • Agentes inteligentes aplicados à gestão
