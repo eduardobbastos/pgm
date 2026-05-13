@@ -62,4 +62,4 @@ o Extração de insights para tomada de decisão
 o Análise de relatórios administrativos
 o Apoio à organização de processos internos
 
-[Acesso ao conteúdo da Aula]()
+[Acesso ao conteúdo da Aula](https://docs.google.com/presentation/d/e/2PACX-1vRJfJeM4TnnG1eHQXzBRwr-bY5BsBkzhihIAsQvRiwY9hQhUTWSVd861p4gjQEA1vOwZnG-EHoxZZ1S/pub?start=false)
